@@ -1,0 +1,51 @@
+.border{
+	border: 2px solid rgba(130,139,178,0.3) ;
+}
+
+.my_dropdown-menu{
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  
+}
+.my_dropdown-menu > li > a{
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;	
+}
+
+.text_oneline{
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cart_inner .table tbody tr td .media .d-flex{
+	max-width: 60%;
+}
+.add-bag_button {
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+.sort_btn {
+	cursor: pointer;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+table 
+{
+    table-layout:fixed;
+    width:100%;
+    word-break: break-all;
+}
+
